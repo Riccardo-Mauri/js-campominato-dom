@@ -1,0 +1,37 @@
+/*
+RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+HEADER
+*/
+header{
+    text-align: center;
+    height: 100px;
+    background-color: aqua;
+}
+/*
+GENERAL
+*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    width: calc(100% / 10);
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+}
+.cell-hover{
+    background-color: lightcoral;
+}
